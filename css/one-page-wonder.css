@@ -158,3 +158,19 @@ header.masthead .bg-circle-4 {
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
+
+.content_holder {
+  position: absolute;
+  width: 99.5%;
+  padding-left: 0.5%;
+  padding-top: 0.5%;
+  height: calc(100vh - 390px);
+  bottom: 0px;
+  background-color: white;
+  box-shadow: 0 2px 38px #c8cfd6;
+  -moz-box-shadow: 0 2px 38px #c8cfd6;
+  -webkit-box-shadow: 0 2px 38px #c8cfd6;
+  -o-box-shadow: 0 2px 38px #c8cfd6;
+  -ms-box-shadow: 0 2px 38px #c8cfd6;
+  overflow: hidden;
+}
