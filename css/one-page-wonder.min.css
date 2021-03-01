@@ -31,7 +31,7 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #303F52;
 }
 .navbar-custom .navbar-brand {
   text-transform: uppercase;
@@ -44,6 +44,7 @@ h6 {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+  color: white;
 }
 header.masthead {
   position: relative;
@@ -125,8 +126,9 @@ header.masthead .bg-circle-4 {
   box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
 }
 .btn-secondary {
-  background-color: #ff6a00;
-  border-color: #ff6a00;
+  color: white;
+  background-color: #44D4BA;
+  border-color: #44D4BA;
 }
 .btn-secondary:active,
 .btn-secondary:focus,
@@ -135,5 +137,5 @@ header.masthead .bg-circle-4 {
   border-color: #c50 !important;
 }
 .btn-secondary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem #44D4BA
 }
