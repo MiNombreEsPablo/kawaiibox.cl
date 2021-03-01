@@ -3507,8 +3507,8 @@ var soldOutCondition = function (e, t) {
       (t = jQuery(e).attr("src")),
         t &&
           ".product-photo--item img:first" === e &&
-          t.indexOf("oldnavy") === -1 &&
-          (t = "http://oldnavy.gap.com" + t);
+          t.indexOf("") === -1 &&
+          (t = "" + t);
     else {
       var i = jQuery(e)[0],
         n = i.style || i.currentStyle || window.getComputedStyle(i, !1);
