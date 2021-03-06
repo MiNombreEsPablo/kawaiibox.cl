@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Lato';
+  font-family: "Lato";
 }
 
 h1,
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-weight: 800 !important;
 }
 
@@ -37,7 +37,7 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #303F52;  
+  background-color: #303f52;
 }
 
 .navbar-custom .navbar-brand {
@@ -90,7 +90,7 @@ header .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #303F52;
+  background-color: #303f52;
   opacity: 0.5;
   z-index: 1;
 }
@@ -169,17 +169,19 @@ header.masthead .bg-circle-4 {
 }
 
 .bg-primary {
-  background-color: #44D4BA !important;
+  background-color: #44d4ba !important;
 }
 
 .btn-primary {
-  background-color: #44D4BA;
-  border-color: #44D4BA;
+  background-color: #44d4ba;
+  border-color: #44d4ba;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #44D4BA !important;
-  border-color: #44D4BA !important;
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: #44d4ba !important;
+  border-color: #44d4ba !important;
 }
 
 .btn-primary:focus {
@@ -188,13 +190,15 @@ header.masthead .bg-circle-4 {
 
 .btn-secondary {
   color: white;
-  background-color: #44D4BA;
-  border-color: #44D4BA;
+  background-color: #44d4ba;
+  border-color: #44d4ba;
 }
 
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #44D4BA !important;
-  border-color: #44D4BA !important;
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+  background-color: #44d4ba !important;
+  border-color: #44d4ba !important;
 }
 
 .btn-secondary:focus {
@@ -218,7 +222,7 @@ header.masthead .bg-circle-4 {
 }
 
 section.pricing {
-  background: #303F52;
+  background: #303f52;
 }
 
 .pricing .card {
@@ -235,7 +239,7 @@ section.pricing {
 .pricing .card-title {
   margin: 0.5rem 0;
   font-size: 0.9rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: bold;
 }
 
@@ -259,7 +263,7 @@ section.pricing {
 .pricing .btn {
   font-size: 80%;
   border-radius: 5rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: bold;
   padding: 1rem;
   opacity: 0.7;
@@ -270,8 +274,8 @@ section.pricing {
 
 @media (min-width: 992px) {
   .pricing .card:hover {
-    margin-top: -.25rem;
-    margin-bottom: .25rem;
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
   .pricing .card:hover .btn {
@@ -281,7 +285,8 @@ section.pricing {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('/video/header_video.mp4') black no-repeat center center scroll;
+    background: url("/video/header_video.mp4") black no-repeat center center
+      scroll;
   }
   header video {
     display: none;
