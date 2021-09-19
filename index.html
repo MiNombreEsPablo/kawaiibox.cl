@@ -1,544 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>KawaiiBox.cl</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta
-      name="description"
-      content="La mejor caja de golosinas en Chile. Recibe snacks y dulces japoneses, koreanos y taiwaneses a la puerta de tu casa."
-    />
-    <meta name="author" content="Random Center" />
-    <meta
-      content="KawaiiBox.cl: Caja de golosinas asiáticas"
-      property="og:title"
-    />
-    <meta content="website" property="og:type" />
-    <meta content="es_CL" property="og:locale" />
-    <meta
-      name="og:description"
-      content="La mejor caja de golosinas en Chile. Recibe snacks y dulces japoneses, koreanos y taiwaneses a la puerta de tu casa."
-    />
-    <meta content="https://kawaiibox.cl/" property="og:url" />
-    <meta content="KawaiiBox.cl" property="og:site_name" />
-    <meta content="img/logo150.png" property="og:image" />
-    <meta
-      content="KawaiiBox.cl: Caja de golosinas asiáticas"
-      name="twitter:title"
-    />
-    <meta content="summary" name="twitter:card" />
-    <meta
-      content="La mejor caja de golosinas en Chile. Recibe snacks y dulces japoneses, koreanos y taiwaneses a la puerta de tu casa."
-      name="twitter:description"
-    />
-    <meta content="img/logo150.png" property="twitter:image" />
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
-    <!-- Custom fonts for this template -->
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>kawaiibox.cl</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+      href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
       rel="stylesheet"
     />
-
-    <!-- Custom styles for this template -->
-    <link href="css/one-page-wonder.min.css" rel="stylesheet" />
-
-    <!-- Facebook Pixel Code -->
-    <script>
-      !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-          n.callMethod
-            ? n.callMethod.apply(n, arguments)
-            : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = "2.0";
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      })(
-        window,
-        document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
-      );
-      fbq("init", "2894928234112052");
-      fbq("track", "PageView");
-    </script>
-    <noscript
-      ><img
-        height="1"
-        width="1"
-        style="display: none"
-        src="https://www.facebook.com/tr?id=2894928234112052&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Facebook Pixel Code -->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
-
   <body>
-    <div id="home"></div>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
-      <div class="container">
-        <a class="navbar-brand" href="#home"
-          ><img
-            src="img/logo150.png"
-            style="width: 80x; height: 80px"
+    <!-- Background Video-->
+    <video
+      class="bg-video"
+      playsinline="playsinline"
+      autoplay="autoplay"
+      muted="muted"
+      loop="loop"
+    >
+      <source src="assets/mp4/bg.mp4" type="video/mp4" />
+    </video>
+    <!-- Masthead-->
+    <div class="masthead">
+      <div class="masthead-content text-white">
+        <div class="container-fluid px-4 px-lg-0">
+          <img
+            src="assets/img/logo150.png"
+            style="width: 100x; height: 100px"
             alt="KawaiiBox.cl"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#what-is-it">¿Qué es?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#what-is-in">¿Qué trae?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Sobre nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#faq">Preguntas frecuentes</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link btn btn-secondary rounded-pill"
-                target="_blank"
-                href="https://randomcenter.cl/kawaii"
-                rel="noreferrer"
-                ><ion-icon name="cart-outline"></ion-icon> COMPRAR</a
-              >
-            </li>
-          </ul>
+          />
+          <h1 class="fst-italic lh-1 mb-4">Cerramos temporalmente</h1>
+          <p class="mb-5">
+            Nos fuimos a vivir a Japón<br />
+            日本に引っ越しました
+          </p>
         </div>
-      </div>
-    </nav>
-
-    <header>
-      <div class="overlay"></div>
-      <video
-        playsinline="playsinline"
-        autoplay="autoplay"
-        muted="muted"
-        loop="loop"
-      >
-        <source src="video/header_video.mp4" type="video/mp4" />
-      </video>
-      <div class="container h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-          <div class="w-100 text-white">
-            <h1 class="display-3">Las mejores golosinas asiáticas</h1>
-            <p class="lead mb-0">a la puerta de tu casa</p>
-            <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5"
-              >Learn More</a
-            >
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section id="what-is-it">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-1">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/01.jpg" alt="" />
-            </div>
-          </div>
-          <div class="col-lg-6 order-lg-2">
-            <div class="p-5">
-              <h2 class="display-4">¿Qué es Kawaii Box?</h2>
-              <p>
-                El mejor servicio de cajas de golosinas asiáticas surtidas en
-                Chile (Dulces japoneses, dulces taiwaneses y dulces coreanos).
-              </p>
-              <p>
-                Entrega gratis en todo el país a través de
-                Chilexpress/mercadoenvíos.
-              </p>
-              <p>
-                Calidad profesional y productos originales de distintos países
-                de Asia.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="pricing py-5">
-      <div class="container">
-        <h1 class="masthead-heading mb-0 text-center" style="color: white">
-          Elige tu Kawaii Box
-        </h1>
-        <br />
-        <div class="row">
-          <!-- Chibi -->
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body" style="line-height: 1">
-                <h5 class="card-title text-muted text-uppercase text-center">
-                  Chibi
-                </h5>
-                <p class="text-center">
-                  <a
-                    href="https://www.randomcenter.cl/MLC-575102143-chibi-kawaii-box-pequena-muestra-de-golosinas-asiaticas-_JM"
-                    ><img src="img/logo150.png" alt="KawaiiBox.cl"
-                  /></a>
-                </p>
-                <h6 class="card-price text-center">$13.550</h6>
-                <hr />
-                <ul class="fa-ul">
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>4</b> dulces tradicionales de sabores exóticos
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>2</b> snacks de sabores surtidos, dulces, salados,
-                    picantes y normales
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>1</b> muestra de mochi tradicional japonés o taiwanés
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>3</b> golosinas aleatorias
-                  </li>
-                  <li class="text-muted">
-                    <span class="fa-li"><i class="fas fa-times"></i></span
-                    ><del>Pocky o Pepero de sabores surtidos</del>
-                  </li>
-                  <li class="text-muted">
-                    <span class="fa-li"><i class="fas fa-times"></i></span
-                    ><del>Bebestible temático importado</del>
-                  </li>
-                  <li class="text-muted">
-                    <span class="fa-li"><i class="fas fa-times"></i></span
-                    ><del
-                      ><b>1</b> caja de galletas especial con temática de
-                      anime</del
-                    >
-                  </li>
-                  <li class="text-muted">
-                    <span class="fa-li"><i class="fas fa-times"></i></span
-                    ><del>Productos de anime</del>
-                  </li>
-                  <li class="text-muted">
-                    <span class="fa-li"><i class="fas fa-times"></i></span
-                    ><del>Envío gratis a todo Chile</del>
-                  </li>
-                </ul>
-                <a href="#" class="btn btn-block btn-primary text-uppercase"
-                  >Button</a
+        <div class="container-fluid px-4 px-lg-0">
+            <p>
+                Kawaii Box&copy es un producto hecho con ♡ por
+                <a class="text-white" href="https://randomcenter.cl/"
+                  >Random Center</a
                 >
-              </div>
-            </div>
-          </div>
-          <!-- Clásica -->
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body" style="line-height: 1">
-                <h5 class="card-title text-muted text-uppercase text-center">
-                  Clásica
-                </h5>
-                <p class="text-center">
-                  <a
-                    href="https://www.randomcenter.cl/MLC-575102143-chibi-kawaii-box-pequena-muestra-de-golosinas-asiaticas-_JM"
-                    ><img src="img/logo150.png" alt="KawaiiBox.cl"
-                  /></a>
-                </p>
-                <h6 class="card-price text-center">$20.990</h6>
-
-                <hr />
-                <ul class="fa-ul">
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>5</b> o más dulces tradicionales de sabores exóticos
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>3</b> snacks de sabores surtidos, dulces, salados,
-                    picantes y normales
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>1</b> muestra de mochi tradicional japonés o taiwanés
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>3</b> golosinas aleatorias
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>1</b> <b>Pocky</b> o <b>Pepero</b> de sabores surtidos.
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>1</b> bebestible temático importado
-                  </li>
-                  <li class="text-muted">
-                    <span class="fa-li"><i class="fas fa-times"></i></span
-                    ><del
-                      ><b>1</b> caja de galletas especial con temática de
-                      anime</del
-                    >
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>1</b> o más productos de anime
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><strong>¡Envío gratis a todo Chile!</strong>
-                  </li>
-                </ul>
-                <a href="#" class="btn btn-block btn-primary text-uppercase"
-                  >Button</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Premium -->
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body" style="line-height: 1">
-                <h5 class="card-title text-muted text-uppercase text-center">
-                  <ion-icon name="star"></ion-icon> Premium
-                  <ion-icon name="star"></ion-icon>
-                </h5>
-                <p class="text-center">
-                  <a
-                    href="https://www.randomcenter.cl/MLC-575102143-chibi-kawaii-box-pequena-muestra-de-golosinas-asiaticas-_JM"
-                    ><img src="img/logo150.png" alt="KawaiiBox.cl"
-                  /></a>
-                </p>
-                <h6 class="card-price text-center">$25.990</h6>
-                <h5
-                  class="card-title text-uppercase text-center"
-                  style="
-                    color: #ffffff;
-                    background: #ec4905;
-                    border-radius: 3px;
-                    width: fit-content;
-                    text-align: center;
-                    padding: 2px 4px;
-                    margin: auto;
-                  "
-                >
-                  Recomendada
-                </h5>
-                <hr />
-                <ul class="fa-ul">
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>6</b> o más dulces tradicionales de sabores exóticos
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>3</b> snacks de sabores surtidos, dulces, salados,
-                    picantes y normales
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>2</b> muestras de mochi tradicional japonés o taiwanés
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>4</b> golosinas aleatorias
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>1</b> <b>Pocky</b> o <b>Pepero</b> de sabores surtidos.
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>1</b> bebestible temático importado
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>1</b> caja de galletas especial con temática de anime
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><b>1</b> o más productos de anime
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span
-                    ><strong>¡Envío gratis a todo Chile!</strong>
-                  </li>
-                </ul>
-                <a href="#" class="btn btn-block btn-primary text-uppercase"
-                  >Button</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/02.jpg" alt="" />
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="p-5">
-              <h2 class="display-4">We salute you!</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                aliquid, mollitia odio veniam sit iste esse assumenda amet
-                aperiam exercitationem, ea animi blanditiis recusandae! Ratione
-                voluptatum molestiae adipisci, beatae obcaecati.
               </p>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-2">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/03.jpg" alt="" />
-            </div>
-          </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="p-5">
-              <h2 class="display-4">Let there be rock!</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                aliquid, mollitia odio veniam sit iste esse assumenda amet
-                aperiam exercitationem, ea animi blanditiis recusandae! Ratione
-                voluptatum molestiae adipisci, beatae obcaecati.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Pixlee
-  <section class="content-holder">
-    <div class="container jumbotron-fluid align-items-center">
-      <h2 class="display-4 align-items-center">Instagram</h2>
-      <div class="embed_code" style="margin-top: 20px; margin-bottom: 20px;">
-        <div id="pixlee_container"></div>
-        <script
-          type="text/javascript">
-            window.PixleeAsyncInit = function () {
-              Pixlee.init({ apiKey: "5vZtDP3qoFBIs4iakgY1" });
-              Pixlee.addSimpleWidget({ widgetId: "31792" });
-            };
-          </script>
-        <script src="pixlee_widget_1_0_0.js"></script>
       </div>
     </div>
-  </section>
--->
-
-    <!-- Footer -->
-    <footer class="text-center text-white" style="background-color: #303f52">
-      <!-- Grid container -->
-      <div class="container p-4">
-        <!-- Section: Social media -->
-        <section class="mb-4">
-          <!-- Instagram -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><ion-icon name="logo-instagram"></ion-icon
-          ></a>
-
-          <!-- MercadoShop -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><ion-icon name="cart"></ion-icon
-          ></a>
-        </section>
-        <!-- Section: Social media -->
-
-        <!-- Section: Text -->
-        <section class="mb-4">
-          <p>
-            Kawaii Box es un producto hecho con
-            <ion-icon name="heart"></ion-icon> por
-            <a class="text-white" href="https://randomcenter.cl/"
-              >Random Center</a
-            >
-          </p>
-        </section>
-        <!-- Section: Text -->
+    <!-- Social Icons-->
+    <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->
+    <div class="social-icons">
+      <div
+        class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0"
+      >
+        <a
+          class="btn btn-dark m-3"
+          href="https://www.instagram.com/randomcenter.cl/"
+          ><i class="fab fa-instagram"></i
+        ></a>
       </div>
+    </div>
 
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        2021 &copy
-        <a class="text-white" href="https://randomcenter.cl/">RANDOM CENTER</a>.
-        TODOS LOS DERECHOS RESERVADOS.
-      </div>
-      <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
-
-    <!-- Whatsapp Float -->
-    <a
-      href="https://api.whatsapp.com/send?phone=56939425955&text=Konnichiwa!%20Me%20gustaría%20comprar%20una%20Kawaii%20Box."
-      class="float"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <ion-icon class="my-float" name="logo-whatsapp"></ion-icon>
-    </a>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!--ionic icons-->
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-
-    <!--icon example
-  <ion-icon name="heart"></ion-icon>
-  --></body>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
 </html>
